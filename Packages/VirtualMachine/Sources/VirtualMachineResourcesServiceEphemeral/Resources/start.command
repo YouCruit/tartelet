@@ -19,7 +19,7 @@ function onexit {
 trap onexit EXIT
 
 # Run the script from the Resources folder
-cd "/Volumes/My Shared Files/Resources"
+cd "/Volumes/My Shared Files"
 
 # Check if files with constants exist
 if [ ! -f $RUNNER_NAME_FILE ]; then
